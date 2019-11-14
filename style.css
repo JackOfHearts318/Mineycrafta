@@ -92,7 +92,7 @@ body {
 
 @font-face {
 	font-family: 'Mineycrafta';
-	src: url("minecraftfont/minecraftfont.otf") format("opentype");
+	src: url("minecraftfont.otf") format("opentype");
 }
 
 .button {
@@ -146,5 +146,3 @@ body {
 		width: 100%;
 	}
 }
-
-/*Remember the original colors: title-row was green, big-columns were #755553, and button_rows were #684c38*/
