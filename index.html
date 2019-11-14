@@ -1,0 +1,90 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="images/grass-block.ico" rel="icon" type="image/x-icon" />
+		<title>Minecraft Website</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="title_row" id="title">
+			<img src="images/minecraft.png">
+		</div>
+		<div class="big_column">
+			<div class="big_container1" id="containa">
+				<div class="big_row1">
+					<img src="images/overworld1copy.jpg">
+					<img src="images/village.jpg" class="imagemove">
+				</div>
+				<div class="big_row2">
+					<span>text here</span>
+					<span class="right">text here</span>
+				</div>
+			</div>
+			<div class="big_container2" id="baybee">
+				<div class="big_row1">
+					<img src="images/swamp.jpg">
+					<img src="images/mobs.jpg" class="imagemove">
+				</div>
+				<div class="big_row2">
+					<span>text here</span>
+					<span class="right">text here</span>
+				</div>
+			</div>
+		</div>
+		<div class="big_column2">
+			<div class="big_container1" id="containa2">
+				<div class="big_row1">
+					<img src="images/desertsavannah.jpg">
+					<img src="images/desertvillagemesa.jpg" class="imagemove">
+				</div>
+				<div class="big-row2">
+					<span>text here</span>
+					<span class="right">text here</span>
+				</div>
+			</div>
+			<div class="big_container2" id="baybee2">
+				<div class="big-row1">
+					<img src="images/mountains.jpg">
+					<img src="images/cave.jpg" class="imagemove">
+				</div>
+				<div class="big_row2">
+					<span>text here</span>
+					<span class="right">text here</span>
+				</div>
+			</div>
+		</div>
+		<div class="button_row">
+			<!--When this button is clicked, it plays Nether Sounds!-->
+			<div class="button" onclick="document.getElementById('click').play();">
+				<span>Nether Sounds</span>
+				<audio src="sounds/minecraft_click.mp3" id="click">
+			</div>
+			<!--When this button is clicked, it plays Overworld Sounds!-->
+			<div class="button" onclick="document.getElementById('click').play();">
+				<span>Overworld Sounds</span>
+				<audio src="sounds/minecraft_click.mp3" id="click">
+			</div>
+			<!--When this button is clicked, it plays End Sounds!-->
+			<div class="button" onclick="document.getElementById('click').play();">
+				<span>End Sounds</span>
+				<audio src="sounds/minecraft_click.mp3" id="click">
+			</div>
+		</div>
+		<div class="button_row2">
+			<!--When this button is clicked, it changes all applicable elements to the Nether setting!-->
+			<div class="button" onclick="changeNether()">
+				<span>To The Nether!</span>
+			</div>
+			<!--When this button is clicked, it changes all applicable elements to the Overworld setting!-->
+			<div class="button" onclick="changeOverworld()">
+				<span>To The Overworld!</span>
+			</div>
+			<!--When this button is clicked, it changes all applicable elements to the End setting!-->
+			<div class="button" onclick="changeEnd()">
+				<span>To The End!</span>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>

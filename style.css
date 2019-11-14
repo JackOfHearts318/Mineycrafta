@@ -1,0 +1,150 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+
+.title_row {
+	height: 15%;
+	width: 100%;
+	display: flex;
+	background-color: green;
+	justify-content: center;
+}
+
+.big_column {
+	height: 65%;
+	width: 50%;
+	display: block;
+	background-color: #755553;
+	float: left;
+	font-family: Mineycrafta;
+	font-size: 18px;
+}
+
+.big_column2 {
+	height: 65%;
+	width: 50%;
+	display: block;
+	background-color: #755553;
+	float: right;
+	font-family: Mineycrafta;
+	font-size: 18px;
+}
+
+.button_row {
+	height: 20%;
+	width: 50%;
+	display: flex;
+	background-color: #684c38;
+	float: left;
+}
+
+.button_row2 {
+	height: 20%;
+	width: 50%;
+	display: flex;
+	background-color: #684c38;
+	float: right;
+}
+
+.big_container1 {
+	height: 50%;
+	width: 100%;
+	display: block;
+	background-color: #655421;
+}
+
+.big_container2 {
+	height: 50%;
+	width: 100%;
+	display: block;
+}
+
+.button {
+	justify-content: center;
+	align-items: center;
+}
+
+.imagemove {
+	float: right
+}
+
+.big_row {
+	height: 50%;
+	width: 100%;
+	display: flex;
+}
+
+.right {
+	float: right;
+}
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.eot');
+  src: url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.eot?#iefix') format('embedded-opentype'),
+       url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.woff') format('woff'),
+       url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.ttf')  format('truetype'),
+       url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.svg#svgFontName') format('svg');
+}
+
+@font-face {
+	font-family: 'Mineycrafta';
+	src: url("minecraftfont/minecraftfont.otf") format("opentype");
+}
+
+.button {
+  height: 100%;
+  width: calc(100%/3);
+  outline: 2px solid black;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_center.png');
+  background-repeat: repeat;
+  padding: 0;
+  font-family: Mineycrafta;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px #4C4C4C;
+  border-bottom: 4px solid #565656;
+  border-right: 2px solid #565656;
+  border-left: 2px solid #AAA;
+  border-top: 2px solid #AAA;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.button span {
+  position: relative;
+  line-height: 40px;
+  bottom: 3px;
+}
+
+.button:hover {
+  border-bottom: 4px solid #59639A;
+  border-right: 2px solid #59639A;
+  border-left: 2px solid #BDC6FF;
+  border-top: 2px solid #BDC6FF;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+  color: #FFFFA0;
+}
+
+@media only screen and (max-width: 800px) {
+	.big_column2 {
+		width: 100%;
+	}
+	.big_column {
+		width: 100%;
+	}
+	.button_row2 {
+		width: 100%;
+	}
+	.button_row {
+		width: 100%;
+	}
+}
+
+/*Remember the original colors: title-row was green, big-columns were #755553, and button_rows were #684c38*/
